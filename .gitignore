@@ -1,0 +1,7 @@
+.config/
+.data/
+.idea/
+node_modules/
+.env
+.glitch-assets
+shrinkwrap.yaml

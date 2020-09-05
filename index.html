@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--     image at the top -->
+    <link
+      rel="shortcut icon" 
+      href="https://cdn.glitch.com/51e8c4e0-12e8-4b22-bce0-98f935e17a7e%2Fmagnify.png?v=1597518603732"
+      type="image/x-icon"
+    />
+
+    <title>Rundown</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="image">
+          <img
+            src="https://cdn.glitch.com/51e8c4e0-12e8-4b22-bce0-98f935e17a7e%2F117946487_963439460786638_580511542182637634_n.png?v=1597518674153"
+            width="600"
+            height="300"
+            alt="Logo"
+          />
+        </div>
+        <form id="form">
+          <input type="text" id="textField" name="textField" placeholder="Give me the rundown!" required/>
+      </form>
+      </div>
+      
+<!--       help button -->
+      <button class="helpButton" id="helpButton">?</button>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>
+            Welcome to Rundown - Fast + Simple
+          </h1>
+          <h3>
+            What is Rundown?
+          </h3>
+          <p>
+            A web application that finds related research topics to begin exploring based on frequently cited academic articles.
+          <h3>
+            Is this data reliable?
+          </h3>
+            Yes, we retrieved the data from an api and sorted it to find specific and highly visited articles tailored to help you find the best information in a short amount of time.
+          <h3>
+            What differentiates our site with others?
+          </h3>
+            Rundown searches through to find the most <b>popular</b> academic articles and helps inspire you with your academic endeavours with just a few words.
+          <h3>
+            How do I use it?
+          </h3>
+          <ul>
+              <li> Type a minimum of 3 words</li>
+              <li> Press enter</li>
+              <li> A list of articles will be shown and you can click each link to learn more</li>
+          </ul>
+          <h3>
+            More Questions?
+          </h3>
+          Contact us via <a href="mailto:anEmail@example.com">Email</a>
+          </p>
+        </div>
+      </div>
+  
+<!--       put the stuff here -->
+      <div class="list" id="listTable" style="display:none">
+          <table>
+            <tr>
+              <th>Key Words</th>
+              <th>Articles From the Main Article Cited</th>
+              <th>Articles that Cited the Main Article</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+        </table>
+      </div>
+  
+    <script src="/script.js" defer></script>  
+  </body>
+</html>
