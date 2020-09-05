@@ -16,16 +16,22 @@ Quick Draw's database. Through that it was able to recognize what a person was d
 - Socket.io
 - p5.js
 - ml5.js
+- Express
 
 ## Images
 
-Main Screen:
+<b>Main Screen:</b>
 <img src="Images/MainPage.png" alt="main page" style="float: left;" />
 
-Chat Feature:
+<b>Chat Feature:</b><br>
+<img src="Images/Chat Feature 1.png" alt="chat feature 1" style="float: left;" />
+<img src="Images/Chat Feature 2.png" alt="chat feature 2" style="float: left;" />
 
-For the person who is drawing:
+<b>For the person who is drawing:</b>
+<img src="Images/Drawing Page.png" alt="drawing page" style="float: left;" />
 
-For the person who is guessing:
+<b>For the person who is guessing:</b>
+<img src="Images/Guessing Page.png" alt="guessing page" style="float: left;" />
 
-Vote Results:
+<b>Vote Results:</b>
+<img src="Images/VotingSystem.png" alt="voting system" style="float: left;" />
