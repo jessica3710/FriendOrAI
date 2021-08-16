@@ -33,5 +33,5 @@ Quick Draw's database. Through that it was able to recognize what a person was d
 <b>For the person who is guessing:</b>
 <img src="Images/Guessing Page.png" alt="guessing page" style="float: left;" />
 
-<b>Vote Results:</b>
+<b>Vote Results:</b></b>
 <img src="Images/VotingSystem.png" alt="voting system" style="float: left;" />
