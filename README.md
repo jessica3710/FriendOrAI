@@ -2,7 +2,7 @@
 
 ### What is it?
 
-A web-application inspired by a popular quarintine drawing game, scribbl.io. <i> Friend or AI? </i> is a drawing and 
+A web-application inspired by a popular quarantine drawing game, scribbl.io. <i> Friend or AI? </i> is a drawing and 
 guessing game that includes a chat feature at the side to allow for real time communication with your friends!
 
 ### How it Works?
